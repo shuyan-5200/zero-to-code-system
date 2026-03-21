@@ -2,3 +2,5 @@
 *.swp
 *.swo
 *~
+private-source
+.cursor/rules/
