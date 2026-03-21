@@ -1,0 +1,35 @@
+---
+description: 用户说"同步""更新""sync"时，从私有学习系统中提取方法论增量同步到本项目
+alwaysApply: false
+---
+
+# 同步工作流
+
+## 触发
+
+用户说"同步""更新""sync""check updates"时执行。
+
+## 数据源
+
+通过软链接 `private-source/` 读取以下文件，**只读这些，不读其他**：
+
+| 读什么 | 路径 | 看什么 |
+|--------|------|--------|
+| 身份与沟通协议 | `private-source/rules/ellie-identity.mdc` | 沟通方式、文档原则 |
+| 收工日志规则 | `private-source/rules/learning-log-reminder.mdc` | 日志筛选、归类、排序规则 |
+| 路径管理规则 | `private-source/rules/ellie-study-path.mdc` | 路径和软链接管理方式 |
+| 文档结构和格式 | `private-source/ellie-study/` 下各文件的**格式和结构** | 只看 playbook/knowledge 等的组织方式和格式规范，不读具体内容 |
+
+**禁止读取：**
+- `private-source/skills/` 下的任何 Skill（私有 Skill 是公开 SKILL.md 的个人实例，公开版是主线，不以私有版为源头）
+- `private-source/ellie-study/` 下的具体学习内容（个人信息）
+- `private-source/ellie-study/projects/` 下的项目笔记
+
+## 流程
+
+1. 读取上方指定文件
+2. 对比本项目的 `SKILL.md` 和 `references/`，找出方法论层面的增量（新规则、格式改进、流程优化）
+3. **脱敏检查**：确保不带入任何个人信息（人名、项目名、公司名、具体路径）
+4. 列出建议清单，等用户确认
+5. 用户确认后更新文件
+6. `git add . && git commit && git push`
