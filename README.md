@@ -107,11 +107,11 @@ Rule 模板见 [references/companion-rules.md](references/companion-rules.md)，
 
 ## 项目状态
 
-这个 Skill 来自我自己学 Coding 过程中沉淀的真实学习系统。我是产品背景、代码零基础，用这套方法跟着 AI 学了几个月，发现效果不错，就把它抽炼成了通用 Skill。
+这个 Skill 来自我自己尝试 Coding 过程中沉淀的真实学习系统。我是产品背景、代码零基础，用这套方法跟着 AI 学了一段时间，发现效果不错，就把它抽炼成了通用 Skill。
 
 **当前状态：可用，持续迭代中。**
 
-我自己每天还在用这套系统学习，会根据实际体验不断优化。如果你也是非技术背景在学 Coding，欢迎试试，也欢迎反馈。
+我自己每天还在迭代这套系统学习。如果你也是非技术背景在尝试 Coding，欢迎试试，也欢迎反馈。
 
 ## 适合谁
 
@@ -121,7 +121,7 @@ Rule 模板见 [references/companion-rules.md](references/companion-rules.md)，
 
 ## 贡献
 
-这是一个个人项目，还在早期。欢迎通过 [Issues](../../issues) 提建议或反馈使用体验。
+这是一个个人小项目，还在早期。欢迎通过 [Issues](../../issues) 提建议或反馈使用体验。
 
 ## License
 
