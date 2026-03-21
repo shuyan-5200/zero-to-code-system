@@ -53,7 +53,7 @@
 ### 1. 下载
 
 ```bash
-git clone https://github.com/你的用户名/zero-to-code-system.git
+git clone https://github.com/shuyan-5200/zero-to-code-system.git
 ```
 
 ### 2. 放到 Cursor Skills 目录
